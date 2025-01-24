@@ -1,0 +1,73 @@
+/*STYLES MAIN PRO*/
+
+#mainP {
+    padding: 130px 0px 30px 0px;
+}
+
+.proName {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:25% 25% 25% 25%;
+    max-height: 400px;
+}
+
+.titleP {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.proVideo {
+    grid-column-start: 1;
+    width: 400%;
+}
+
+.proVideo2 {
+    display: none;
+}
+
+.benefits {
+    display: grid;
+    grid-template-areas: 
+    "benT1 benT2 benT3"
+    "benP11 benP21 benP31"
+    "benP12 benP22 benP32"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.benT1 {
+    grid-area: benT1;
+}
+
+.benT2 {
+    grid-area: benT2;
+}
+
+.benT3 {
+    grid-area: benT3;
+}
+
+.benP11 {
+    grid-area: benP11;
+}
+
+.benP12 {
+    grid-area: benP12;
+}
+
+.benP21 {
+    grid-area: benP21;
+}
+
+.benP22 {
+    grid-area: benP22;
+}
+
+.benP31 {
+    grid-area: benP31;
+}
+
+.benP32 {
+    grid-area: benP32;
+}

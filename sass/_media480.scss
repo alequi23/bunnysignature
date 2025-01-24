@@ -1,0 +1,238 @@
+@media screen and (max-width: 480px) {
+
+    *{
+        max-width: 480px;
+        }
+
+    /*--TITLES--*/
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    article {
+        padding: 0px 0px 20px 10px;
+    }
+
+
+    
+    #header {
+        flex-direction: column;
+        align-self: self-start;
+        width: 480px;
+    }
+
+    #nav ul {
+        column-gap: 5px;
+    }
+
+    .navLi {
+        font-size: small;
+    }
+
+    .mainName {
+        flex-direction: column;
+        padding-top: 150px;
+    }
+
+    .pillars {
+        align-items: flex-start;
+    }
+
+    .whatWeDoProcess{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .whatWeDoS{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .numbers{
+        width: 50px;
+        height: 50px;
+    }
+
+    .pillars{
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .brandsPresentation {
+        flex-direction: column-reverse;
+    }
+
+    .brandsPreImg {
+        max-height: 100px;
+        max-width: 200px;
+    }
+
+    .education {
+        flex-direction: column;
+    }
+
+    .educationImg {
+        max-width: 300px;
+        justify-content: center;
+    }
+
+    .mentalHealth {
+        flex-direction: column-reverse;
+    }
+
+    .mentalHealthImg {
+        max-height: 200px;
+    }
+
+    .approach {
+        flex-direction: column;
+    }
+
+    .healthBullets {
+        flex-direction: column;
+    }
+
+
+
+    #mainP {
+        padding: 100px 0px 30px 0px;
+    }
+
+    .proName {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows:25% 25% 25% 25%;
+        height: 250px;
+    }
+
+    .titleP {
+        grid-column-start: 1;
+        grid-row-start: 4;
+    }
+
+    .proVideo {
+        display: none;
+    }
+
+    .proVideo2 {
+        display: block;
+    }
+
+    .mainPText {
+        padding: 10px 0px 30px 0px;
+    }
+
+    .benefits   {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutusTA {
+        flex-direction: column;
+    }
+
+    .auG {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .auVideo {
+        max-width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .auMV {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .auMVS {
+        max-width: 100%;
+    }
+
+    .values {
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .value {
+        max-width: 100%;
+    }
+
+
+
+
+    #mainCU {
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "form"
+        "callUs"
+        "writeUS"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px 1fr 140px 140px;
+    }
+
+    #title  {
+        font-size: 50px;
+    }
+
+    #form {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .buttonCUS {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 120%;
+    }
+
+
+
+
+    #footer {
+        width: 480px;
+    }
+
+    .followUs {
+        justify-content: space-around;
+        padding: 15px 60% 20px 0;
+    }
+
+    .footerNav{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footerNav1 {
+        display: flex;
+    }
+
+    .footerNav2 {
+        display: flex;
+    }
+
+}

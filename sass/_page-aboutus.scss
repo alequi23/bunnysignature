@@ -1,0 +1,43 @@
+/*STYLES MAIN ABOUT US*/
+
+#mainA {
+    padding: 130px 0px 30px 0px;
+}
+
+.aboutusTA {
+    display: flex;
+}
+
+.aboutusTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auVideo {
+    max-width: 600px;
+    height: auto;
+}
+
+.auG {
+    padding: 30px 0px 30px 0px;
+}
+
+.auMV {
+    display: flex;
+    padding: 50px 0px 0px 0px;
+}
+
+.auMVS {
+    max-width: 50%;
+}
+
+.values {
+    display: flex;
+    padding: 0px 0px 50px 0px;
+}
+
+.value {
+    max-width: 20%;
+    text-align: center;
+}

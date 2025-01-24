@@ -1,0 +1,52 @@
+/*STYLES FOOTER*/
+
+#footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f8f8f8;
+}
+
+.followUs {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px 88% 20px 0;
+}
+
+
+
+.footerNavSec {
+    width: 100%;
+}
+
+.footerNav {
+    display: flex;
+    text-align: center;
+    column-gap: 2%;
+}
+
+.footerNavT {
+    font-weight: bold;
+}
+
+.footerNavS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.footerCopyNLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerCopyLogo {
+    width: 300px;
+}
+
+.footerCopy {
+    display: flex;
+}

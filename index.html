@@ -18,6 +18,9 @@
     <!--Link Styles and Titles-->
     <link rel="stylesheet" href="css/style.css">
 
+    <!--Link Styles Michalsnik-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Bunny Signature</title> 
 </head>
 <body id="body">
@@ -40,45 +43,45 @@
     <main id="main">
         <section class="mainName">
             <section class="mainPresentation">
-                <h1>Bunny Signature</h1>
+                <h1 data-aos="fade-down">Bunny Signature</h1>
                 <p>We are a dynamic and purpose-driven organization operating in the fields of education and healthcare. With a commitment to excellence, the company provides high-quality services that empower individuals and communities to thrive. </p>
                 <section class="mainButtons">
-                    <a class="buttonUS" href="./pages/about_us.html">About us</a>
-                    <a class="buttonUS" href="./pages/contact_us.html">Contact us</a>
+                    <a data-aos="zoom-in-up" class="buttonUS" href="./pages/about_us.html">About us</a>
+                    <a data-aos="zoom-in-up" class="buttonUS" href="./pages/contact_us.html">Contact us</a>
                 </section>
             </section>
 
             <picture>
-                <video class= "logoAni" src="images/logo_animated.mp4" autoplay loop></video>
+                <video data-aos="fade-left" class= "logoAni" src="images/logo_animated.mp4" autoplay loop></video>
             </picture>
         </section>
         
-        <section class="whatWeDo">
+        <section data-aos="fade-up" class="whatWeDo">
             <section>
                 <h3 >What we do</h3>
                 <p>Rooted in Christian values, Bunny Signature prioritizes integrity, compassion, and love for the people, ensuring that every service reflects a deep respect for human dignity and well-being. We focus on finding out and covering our community needs based on education and health issues.</p>
             </section>
             
             <section class="whatWeDoProcess">
-                <section class="whatWeDoS">
+                <section data-aos="fade-up-right" class="whatWeDoS">
                     <img class="numbers" src="./icons/n1.png" alt="n1">
                     <h4>Research</h4>
                     <p>We research our community to find out the needs.</p>
                 </section>
 
-                <section class="whatWeDoS">
+                <section data-aos="fade-up-right" class="whatWeDoS">
                     <img class="numbers" src="./icons/n2.png" alt="n2">
                     <h4>Design</h4>
                     <p>We design a particular program to cover that  specific need.</p>
                 </section>
 
-                <section class="whatWeDoS">
+                <section data-aos="fade-up-left" class="whatWeDoS">
                     <img class="numbers" src="./icons/n3.png" alt="n3">
                     <h4>Develop</h4>
                     <p>We develop the plan with people from our community.</p>
                 </section>
                 
-                <section class="whatWeDoS">
+                <section data-aos="fade-up-left" class="whatWeDoS">
                     <img class="numbers" src="./icons/n4.png" alt="n4">
                     <h4>Fulfill</h4>
                     <P>We fulfill our community needs</P> 
@@ -235,5 +238,10 @@
     <!--Link Java de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
+    <!--Link Script Michalsnik-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

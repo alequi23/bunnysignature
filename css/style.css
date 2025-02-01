@@ -552,7 +552,7 @@ h4 {
   display: flex;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   * {
     max-width: 600px;
   }
@@ -575,7 +575,7 @@ h4 {
   #header {
     flex-direction: column;
     align-self: self-start;
-    width: 480px;
+    width: 600px;
   }
   #nav ul {
     column-gap: 5px;
@@ -706,7 +706,7 @@ h4 {
     width: 120%;
   }
   #footer {
-    width: 480px;
+    width: 600px;
   }
   .followUs {
     justify-content: space-around;

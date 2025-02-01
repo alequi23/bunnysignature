@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     *{
         max-width: 600px;
@@ -31,7 +31,7 @@
     #header {
         flex-direction: column;
         align-self: self-start;
-        width: 480px;
+        width: 600px;
     }
 
     #nav ul {
@@ -213,7 +213,7 @@
 
 
     #footer {
-        width: 480px;
+        width: 600px;
     }
 
     .followUs {
